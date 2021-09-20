@@ -1,0 +1,45 @@
+[{
+    "id": 1,
+    "user_id": 2,
+    "imagen_url": "assets/prod/pado.jpg",
+    "apr_es": "Mapa 1",
+    "act": "",
+    "desc": "",
+    "audio_url": "./audios/jugar.wav",
+    "audio_juego_url": "./audios/fondo_juego.wav",
+    "audio_id": "",
+    "image_id": ""
+},{
+    "id": 1,
+    "user_id": 2,
+    "imagen_url": "assets/prod/pintura.jpg",
+    "apr_es": "Mapa 2",
+    "act": "",
+    "desc": "",
+    "audio_url": "./audios/fondo_juego.wav",
+    "audio_juego_url": "./audios/fondo_juego.wav",
+    "audio_id": "",
+    "image_id": ""
+}, {
+    "id": 1,
+    "user_id": 2,
+    "imagen_url": "assets/prod/se.jpg",
+    "apr_es": "Mapa 3",
+    "act": "",
+    "desc": "",
+    "audio_url": "",
+    "audio_juego_url": "./audios/fondo_juego.wav",
+    "audio_id": "",
+    "image_id": ""
+}, {
+    "id": 1,
+    "user_id": 2,
+    "imagen_url": "assets/prod/ate.jpg",
+    "apr_es": "Mapa 4",
+    "act": "",
+    "desc": "",
+    "audio_url": "",
+    "audio_juego_url": "./audios/fondo_juego.wav",
+    "audio_id": "",
+    "image_id": ""
+}]

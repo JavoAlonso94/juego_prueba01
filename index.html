@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>PUZZLE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/jquery.jqpuzzle.css">
+    <link rel="stylesheet" href="assets/css/javo_theeme.css">
+</head>
+
+<body class="bg-dark">
+    <div class="audios"></div>
+    <!-- Start: juego -->
+    <div class="rubberBand animated d-block" id="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 p-2">
+                    <h3 class="w-50 float-left text-white-50">PUZZLE</h3><a class="swing animated btn btn-danger text-white-50 float-right" href="#"><i class="fa fa-close jello animated infinite m-1 mx-auto"></i></a><a class="swing animated btn btn-info text-white-50 float-right btn-audio"
+                        href="#"><i class="fa fa-volume-up jello animated infinite m-1 mx-auto"></i></a></div>
+                <div class="col-md-12 p-2">
+                    <!-- <p><button class="btn btn-info btn-princ">Regresar al menú principal</button></p> -->
+                    <h6 class="text-white-50 text-justify"></h6>
+                </div>
+                <div class="col-sm-12 col-md-8 p-5" style="background-color:#4e2f206b"><img class="img-thumbnail img-fluid jello animated infinite mx-auto d-block" src="assets/img/logo_juego_f010.jpg"></div>
+                <div class="col-sm-6 col-md-4 offset-sm-3 offset-md-0 p-2" style="background-color:#4e2f206b"><button class="btn btn-info btn-block btn-lg bg-info border-success shadow-sm mt-5 btn-entrar" type="button"><i class="fa fa-gamepad pulse animated infinite m-1 float-left" style="color: rgb(22,43,120);font-size: 32px;"></i><span class="m-1 float-right">Jugar</span></button></div>
+            </div>
+        </div>
+    </div>
+    <!-- End: juego -->
+    <!-- Start: juego -->
+    <div class="rubberBand animated d-none" id="segunda">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 p-2">
+                    <h3 class="w-50 float-left text-white-50">PUZZLE</h3><a class="swing animated btn btn-danger text-white-50 float-right" href="#"><i class="fa fa-arrow-left jello animated infinite m-1 mx-auto"></i></a><a class="swing animated btn btn-info text-white-50 float-right btn-audio"
+                        href="#"><i class="fa fa-volume-up jello animated infinite m-1 mx-auto"></i></a></div>
+                <div class="col-md-12 p-2">
+                    <h6 class="text-white-50 text-justify">BY ING. JUAN JAVIER ALONSO RODRIGUEZ<br></h6>
+                </div>
+                <div class="col-sm-12 col-md-12 p-1" style="background-color:#4e2f206b">
+                    <div class="text-center"><i class="fa fa-long-arrow-left wobble animated infinite text-white m-1"></i><i class="fa fa-arrows-h text-white m-1"></i><i class="fa fa-long-arrow-right wobble animated infinite text-white m-1"></i></div>
+                    <section id="main">
+                        <aside id="horizontal-scroll">
+                            <!-- Start: game -->
+
+                            <!-- End: game -->
+                        </aside>
+                    </section>
+                </div>
+                <div class="col-sm-6 col-md-4 offset-sm-3 offset-md-0 p-2" style="background-color:#4e2f206b"></div>
+            </div>
+        </div>
+    </div>
+    <!-- End: juego -->
+    <!-- Start: juego -->
+    <div class="rubberBand animated d-none" id="desc-game-selected">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 p-2"><a class="swing animated btn btn-danger text-white-50 float-right" href="#"><i class="fa fa-puzzle-piece jello animated infinite m-1 mx-auto"></i></a>
+                    <a class="swing animated btn btn-info text-white-50 float-right btn-audio" href="#"><i class="fa fa-volume-up jello animated infinite m-1 mx-auto"></i></a>
+                    <a class="swing animated btn btn-primary text-white-50 float-left btn-back" href="#"><i class="fa fa-arrow-left jello animated infinite m-1 mx-auto"></i></a>
+                </div>
+                <div class="col-md-12 p-2">
+                    <h6 class="text-white-50 text-justify">nombre del juego</h6>
+                </div>
+                <div class="col-sm-12 col-md-8 p-5" style="background-color:#4e2f206b">
+                    <div class="position-relative">
+                        <div class="adm-audio" style="background-color: rgba(0,0,0,0.75); border-radius:10px;"><a class="text-center btn-audio-adm" href="#"><i class="fa fa-volume-up jello animated infinite" style="font-size: 64px;color: rgb(163,172,181);"></i></a></div><img class="img-thumbnail img-fluid pulse animated infinite mx-auto d-block"
+                            src="assets/img/logo_juego_f010.jpg"></div>
+                </div>
+                <div class="col-md-12 p-2">
+                    <h6 class="text-white-50 text-justify">descripcion</h6>
+                </div>
+                <div class="col-sm-6 col-md-4 offset-sm-3 offset-md-0 p-2" style="background-color:#4e2f206b"><button class="btn btn-info btn-block btn-lg bg-info border-success shadow-sm mt-3 btn-puzzle-start" type="button"><i class="fa fa-gamepad pulse animated infinite m-1 float-left" style="color: rgb(22,43,120);font-size: 32px;"></i><span class="m-1 float-right">Jugar</span></button></div>
+            </div>
+        </div>
+    </div>
+    <!-- End: juego -->
+    <!-- Start: juego -->
+    <div class="rubberBand animated d-none" id="desc-game-reset">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 p-2"><a class="swing animated btn btn-danger text-white-50 float-right" href="#"><i class="fa fa-puzzle-piece jello animated infinite m-1 mx-auto"></i></a>
+                    <a class="swing animated btn btn-info text-white-50 float-right btn-audio" href="#"><i class="fa fa-volume-up jello animated infinite m-1 mx-auto"></i></a>
+                    <a class="swing animated btn btn-primary text-white-50 float-left btn-back" href="#"><i class="fa fa-arrow-left jello animated infinite m-1 mx-auto"></i></a>
+                </div>
+                <div class="col-md-12 p-2">
+                    <h6 class="text-white-50 text-justify">iniciar nueva mente</h6>
+                </div>
+                <div class="col-sm-12 col-md-8 p-1" style="background-color:#4e2f206b">
+                    <div class="position-relative">
+                        <div class="adm-audio" style="background-color: rgba(0,0,0,0.75); border-radius:10px;"><a class="text-center btn-refresg-fame" href="#"><i class="fa fa-refresh jello animated infinite" style="font-size: 64px;color: rgb(163,172,181);"></i></a></div><img class="img-thumbnail pulse animated infinite mx-auto d-block"
+                            src="assets/img/logo_juego_f010.jpg" width="95%"></div>
+                </div>
+                <div class="col-md-12 p-2">
+                    <h6 class="text-white-50 text-center">JUEGO TERMINADO</h6>
+                </div>
+                <div class="col-sm-6 col-md-4 offset-sm-3 offset-md-0 p-2" style="background-color:#4e2f206b"><button class="btn btn-info btn-block btn-lg bg-info border-success shadow-sm mt-3 btn-puzzle-start" type="button"><i class="fa fa-gamepad pulse animated infinite m-1 float-left" style="color: rgb(22,43,120);font-size: 32px;"></i><span class="m-1 float-right">Jugar</span></button></div>
+            </div>
+        </div>
+    </div>
+    <!-- End: juego -->
+    <!-- Start: juego -->
+    <div class="rubberBand animated d-none" id="desc-puzzle-play">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 p-2"><a class="swing animated btn btn-danger text-white-50 float-right" href="#"><i class="fa fa-puzzle-piece jello animated infinite m-1 mx-auto"></i></a>
+                    <a class="swing animated btn btn-info text-white-50 float-right btn-audio" href="#"><i class="fa fa-volume-up jello animated infinite m-1 mx-auto"></i></a>
+                    <a class="swing animated btn btn-primary text-white-50 float-left btn-back" href="#"><i class="fa fa-arrow-left jello animated infinite m-1 mx-auto"></i></a>
+                </div>
+                <div class="col-sm-12 col-md-8 p-1" style="background-color:#4e2f206b">
+                    <div class="position-relative div-del-juego"><img class="img-thumbnail pulse animated mx-auto d-block" src="assets/img/logo_juego_f010.jpg" width="95%"></div>
+                </div>
+                <div class="col-sm-6 col-md-4 offset-sm-3 offset-md-0 p-2 d-none" style="background-color:#4e2f206b"><button class="btn btn-info btn-block btn-lg bg-info border-success shadow-sm mt-3 btn-ir-restart" type="button"><i class="fa fa-gamepad pulse animated infinite m-1 float-left" style="color: rgb(22,43,120);font-size: 32px;"></i><span class="m-1 float-right">Jugar</span></button></div>
+            </div>
+        </div>
+    </div>
+    <!-- End: juego -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
