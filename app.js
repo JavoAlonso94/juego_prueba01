@@ -275,8 +275,8 @@ $(document).ready(function() {
     }
 
     function confiGame() {
-        let pocicionR = Math.floor(Math.random() * (5 - 3 + 1)) + 3;
-        let pocicionC = Math.floor(Math.random() * (6 - 3 + 1)) + 3
+        let pocicionR = 3;//Math.floor(Math.random() * (5 - 3 + 1)) + 3;
+        let pocicionC = 3;//Math.floor(Math.random() * (6 - 3 + 1)) + 3
         return {
             rows: pocicionR, // number of rows [3 ... 8] 
             cols: pocicionC, // number of columns [3 ... 8] 
