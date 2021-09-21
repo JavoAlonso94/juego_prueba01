@@ -42,16 +42,5 @@
     "audio_juego_url": "./audios/fondo_juego.wav",
     "audio_id": "",
     "image_id": ""
-}, {
-    "id": 1,
-    "user_id": 2,
-    "imagen_url": "assets/prod/se.jpg",
-    "apr_es": "Mapa 5",
-    "act": "",
-    "desc": "",
-    "audio_url": "",
-    "audio_juego_url": "./audios/fondo_juego.wav",
-    "audio_id": "",
-    "image_id": ""
 }]
 
