@@ -1,7 +1,7 @@
 [{
     "id": 1,
     "user_id": 2,
-    "imagen_url": "assets/prod/pado.jpg",
+    "imagen_url": "./MEL.webp",
     "apr_es": "Mapa 1",
     "act": "",
     "desc": "",
@@ -43,4 +43,5 @@
     "audio_id": "",
     "image_id": ""
 }]
+
 
